@@ -1,0 +1,82 @@
+#container {
+height: 354px;
+width: 731px;
+text-align: justify;
+background-color: #fff;
+margin:auto;
+}
+
+body {
+background-color: #cccccc;
+font-family:Verdana;
+size:11px;
+}     
+
+h1{
+padding-left: 40px;
+padding-top: 13px;
+margin-bottom: 0px;
+font-size: 23px;
+width:691px;
+height: 38px;
+background-color: #b0b0b0;
+}  
+
+h3{
+padding-top: 0px;
+padding-left: 160px;
+font-size: 15px;
+margin-bottom: 0px;
+margin-top: 10px;
+
+}    
+
+p{
+height:258px;
+font-size: 11px;
+padding-left: 160px;
+padding-right: 13px;
+padding-top: 0px;
+margin-top: 8px;
+
+}
+
+p:first-letter{
+color:blue;
+font-weight: bold;
+font-size: 38px;
+font-family: 'Times New Roman';
+}    
+    
+#content {width:520px; height:300px; float:left; background-color:#fff;}
+
+#nav {
+width:150px; 
+height:303px; 
+float:left; 
+background-color:#e7e7e7;
+padding-top: 0px;
+}
+
+{height:50px; background-color:#b0b0b0;} 
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+a:link {
+    display:block; width: 150px; height: 39px;
+    line-height:39px; color:#000000;
+    text-decoration:none; font-size:12px;
+    background: url(images/rol.gif) no-repeat left bottom;
+    text-indent:40px; 
+}   
+
+a:hover{
+    background-position:right bottom;
+    color:white; font-weight: bold;
+}                                      
+
+
