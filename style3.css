@@ -1,69 +1,79 @@
 #container {
-height: 667px;
-width: 693px;
-text-align: justify;
-background-color: #fff;
-margin:auto;
-}
-
+        height: 667px;
+        width: 693px;
+        text-align: justify;
+        background-color: #fff;
+        margin:auto;
+        }
+        
 body {
-background-color: #cccccc;
-font-family:Verdana;
-size:11px;
-}     
-
+        background-color: #cccccc;
+        font-family:Verdana;
+        size:11px;
+        }     
+        
 h1{    
-padding-left: 40px;
-padding-top: 13px;
-margin-bottom: 0px;
-font-size: 23px;
-width:653px;
-height: 38px;
-background-color: #b0b0b0;
-}  
-
+        padding-left: 40px;
+        padding-top: 13px;
+        margin-bottom: 0px;
+        font-size: 23px;
+        width:653px;
+        height: 38px;
+        background-color: #b0b0b0;
+        }  
+        
 h3{    
-padding-top: 25px;
-padding-left: 10px;
-font-size: 14px;
-margin-bottom: 0px;
-margin-top: 10px;
-}    
-   
-    
-#content {width:520px; height:300px; float:left; background-color:#fff;}
-
-ul {
-margin: 0px;
-padding: 0px;
-width: 720px;
-list-style: none;
-text-transform: uppercase;
+        padding-top: 25px;
+        padding-left: 10px;
+        font-size: 14px;
+        margin-bottom: 0px;
+        margin-top: 10px;
+        }    
+           
+            
+#content {
+        width:520px; 
+        height:300px; 
+        float:left; 
+        background-color:#fff;
 }
-
-ul li {background-image:url(images/nb.gif); display:inline; float:left; font-size: 11px;}
-
-a:link {
-padding: 0px 10px 0px 10px;
-line-height: 25px;
-text-decoration: none;
-color:#fff;
-float: left;
-display: block;
-}   
-
+        
+ul {
+        margin: 0px;
+        padding: 0px;
+        width: 720px;
+        list-style: none;
+        text-transform: uppercase;
+        }
+        
+ul li {
+        background-image:url(images/nb.gif); 
+        display:inline; 
+        float:left; 
+        font-size: 11px;
+}
+        
+a {
+        padding: 0px 10px 0px 10px;
+        line-height: 25px;
+        text-decoration: none;
+        color:#fff;
+        float: left;
+        display: block;
+        }   
+        
 a:hover{color:#333;}  
 a:visited {color:#333;} 
-
+        
 .foto IMG {position: relative;}
-
+        
 .font1 {left: 10px; 
-        top: 4px; 
-        z-index: 1;}
-
+                top: 4px; 
+                z-index: 1;}
+        
 .font2 {
-    left: 283px;
-    top: -100px;
-    z-index: 2;}
+            left: 283px;
+            top: -100px;
+            z-index: 2;}
 
 
