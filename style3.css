@@ -67,13 +67,14 @@ a:visited {color:#333;}
         
 .foto IMG {position: relative;}
         
-.font1 {left: 10px; 
-                top: 4px; 
-                z-index: 1;}
+.font1 {
+        left: 10px; 
+        top: 4px; 
+        z-index: 1;}
         
 .font2 {
-            left: 283px;
-            top: -100px;
-            z-index: 2;}
-
-
+        left: 283px;
+        top: -100px;
+        z-index: 2;}
+        
+        
