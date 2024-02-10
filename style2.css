@@ -7,20 +7,25 @@ margin:auto;
 }
 
 body {
-background-color: #cccccc;
-font-family:Verdana;
-size:11px;
-}     
+    background-color: #cccccc;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    size:11px;
+    }   
+
 
 h1{
-padding-left: 40px;
-padding-top: 13px;
-margin-bottom: 0px;
-font-size: 23px;
-width:691px;
-height: 38px;
-background-color: #b0b0b0;
-}  
+    padding-left: 0px;
+    padding-top:8px;
+    margin-bottom: 0px;
+    font-size: 23px;
+    background-color: #b0b0b0;
+} 
+
+#header {
+    height: 50px;
+    background-color: rgb(176,176,176);
+    padding-left: 40px;
+}
 
 h3{
 padding-top: 0px;
@@ -69,7 +74,7 @@ ul {
 a:link {
     display:block; width: 150px; height: 39px;
     line-height:39px; color:#000000;
-    text-decoration:none; font-size:12px;
+    text-decoration: none; font-size: 12px;
     background: url(images/rol.gif) no-repeat left bottom;
     text-indent:40px; 
 }   
@@ -77,6 +82,20 @@ a:link {
 a:hover{
     background-position:right bottom;
     color:white; font-weight: bold;
-}                                      
+}   
 
+a:focus {color:black}  
+
+.blue-link {
+    color: blue;
+    text-decoration: underline;
+  }
+  
+.blue-link:hover {
+    color: black;
+    text-decoration: underline;
+    font-weight: 700;
+  }
+
+  
 
