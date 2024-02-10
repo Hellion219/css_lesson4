@@ -7,17 +7,15 @@
 
 body {
     background-color: #cccccc;
-    font-family:Verdana;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     size:11px;
     }     
 
 h1{
-    padding-left: 40px;
-    padding-top: 13px;
+    padding-left: 0px;
+    padding-top:8px;
     margin-bottom: 0px;
     font-size: 23px;
-    width:691px;
-    height: 38px;
     background-color: #b0b0b0;
 }  
 
@@ -45,9 +43,16 @@ p:first-letter{
     font-weight: bold;
     font-size: 38px;
     font-family: 'Times New Roman';
+    letter-spacing: 0px;
 }    
             
 #content {width:520px; height:300px; float:left; background-color:#fff;}
+
+#header {
+    height: 50px;
+    background-color: rgb(176,176,176);
+    padding-left: 40px;
+}
 
 #nav {
     width:150px; 
@@ -57,7 +62,7 @@ p:first-letter{
     padding-top: 0px;
 }
 
-{height:50px; background-color:#b0b0b0;} 
+{height:50px; background-color: rgb(176,176,176);} 
 
 ul {margin-top: 8px;}
      
@@ -66,9 +71,18 @@ ul li {padding-top:10px; padding-bottom:10px;
   
 
 a:link {text-decoration:none;}       
-a:visited {color:black; text-decoration:none;}              
-a:hover{color:black; font-weight: bold; text-decoration:underline;}              
-a:active{color:black; font-weight: bold; text-decoration:underline;}                            
+a:focus {color:black}            
 
+
+.blue-link {
+  color: blue;
+  text-decoration: underline;
+}
+
+.blue-link:hover {
+  color: black;
+  text-decoration: underline;
+  font-weight: 700;
+}
        
       
