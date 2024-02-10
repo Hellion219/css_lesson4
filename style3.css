@@ -1,33 +1,36 @@
 #container {
         height: 667px;
-        width: 693px;
+        width: 699px;
         text-align: justify;
         background-color: #fff;
-        margin:auto;
+        margin:0 auto;
         }
         
 body {
         background-color: #cccccc;
-        font-family:Verdana;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
         size:11px;
-        }     
-        
-h1{    
+        }  
+
+#header {
+        height: 50px;
+        background-color: #b0b0b0;
         padding-left: 40px;
-        padding-top: 13px;
+        }        
+        
+h1{
+        padding-left: 0px;
+        padding-top:8px;
         margin-bottom: 0px;
         font-size: 23px;
-        width:653px;
-        height: 38px;
         background-color: #b0b0b0;
-        }  
+        } 
         
 h3{    
-        padding-top: 25px;
         padding-left: 10px;
         font-size: 14px;
         margin-bottom: 0px;
-        margin-top: 10px;
+        margin-top: 1%;
         }    
            
             
@@ -36,25 +39,28 @@ h3{
         height:300px; 
         float:left; 
         background-color:#fff;
+        
 }
         
 ul {
         margin: 0px;
         padding: 0px;
-        width: 720px;
+        width: 699px;
         list-style: none;
         text-transform: uppercase;
+        display: inline-block;
+        background-image:url(images/nb.gif);
+        background-repeat: repeat-x;
         }
         
 ul li {
-        background-image:url(images/nb.gif); 
         display:inline; 
         float:left; 
         font-size: 11px;
 }
         
 a {
-        padding: 0px 10px 0px 10px;
+        padding: 0px 10px 0px 9px;
         line-height: 25px;
         text-decoration: none;
         color:#fff;
@@ -62,8 +68,18 @@ a {
         display: block;
         }   
         
-a:hover{color:#333;}  
-a:visited {color:#333;} 
+a:link {text-decoration:none;}       
+a:focus {color:black} 
+
+.blue-link {
+        color: white;
+        text-decoration: underline;
+      }
+      
+.blue-link:hover {
+        color: black;
+        text-decoration: underline;
+      }
         
 .foto IMG {position: relative;}
         
